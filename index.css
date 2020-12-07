@@ -7,3 +7,7 @@ i.fab {
 .bg-primary {
     background-color: #3d5a80 !important;
 }
+
+a.bg-primary:hover {
+    background-color: #293241 !important;
+}
