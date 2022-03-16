@@ -1,5 +1,6 @@
 {
-  "name": "next-boilerplate",
+  "name": "portfolio",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,5 +22,5 @@
     "tailwindcss": "^3.0.18",
     "typescript": "4.5.5"
   },
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.2.0"
 }
