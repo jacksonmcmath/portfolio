@@ -1,10 +1,10 @@
-import type { SectionProps } from "../components/Skill/Section";
+import type { SkillGroupProps } from "../components/SkillGroup";
 import * as Icon from "../icons";
 
-// const SKILLS: SectionProps[] = [
+// const SKILLS: SkillGroupProps[] = [
 //   {
 //     heading: "Languages",
-//     data: [
+//     skills: [
 //       [
 //         { label: "Python", icon: <Icon.Python /> },
 //         { label: "C++", icon: <Icon.CPlusPlus /> },
@@ -23,7 +23,7 @@ import * as Icon from "../icons";
 //   },
 //   {
 //     heading: "Frameworks & Libraries",
-//     data: [
+//     skills: [
 //       [
 //         { label: "React", icon: <Icon.React /> },
 //         { label: "GraphQL", icon: <Icon.GraphQL /> },
@@ -40,7 +40,7 @@ import * as Icon from "../icons";
 //   },
 //   {
 //     heading: "Project Management",
-//     data: [
+//     skills: [
 //       [
 //         { label: "Git", icon: <Icon.Git /> },
 //         { label: "Visual Studio", icon: <Icon.VisualStudio /> },
@@ -54,7 +54,7 @@ import * as Icon from "../icons";
 //   },
 //   {
 //     heading: "Systems",
-//     data: [
+//     skills: [
 //       [
 //         { label: "macOS", icon: <Icon.Apple /> },
 //         { label: "Windows", icon: <Icon.Windows /> },
@@ -75,12 +75,12 @@ import * as Icon from "../icons";
 
 // export default SKILLS;
 
-export const TEST_SKILLS: SectionProps[] = [
+export const TEST_SKILLS: SkillGroupProps[] = [
   {
     heading: "Languages",
-    data: [
+    skills: [
       [
-        { label: "Python", icon: <Icon.Python />, href: "https://python.org/" },
+        { label: "Python", icon: <Icon.Python /> },
         { label: "C++", icon: <div>.cpp</div> },
         { label: "MatLab", icon: <div>.m</div> },
         { label: "Java", icon: <div>.java</div> },
@@ -93,52 +93,46 @@ export const TEST_SKILLS: SectionProps[] = [
         { label: "CSS", icon: <div>.css</div> },
         { label: "SQL", icon: <div>.sql</div> },
       ],
-      [
-        { label: "Python", icon: <div>.py</div> },
-        { label: "C++", icon: <div>.cpp</div> },
-        { label: "TypeScript", icon: <div>.ts</div> },
-        { label: "JavaScript", icon: <div>.js</div> },
-      ],
-      [
-        { label: "TypeScript", icon: <div>.ts</div> },
-        { label: "JavaScript", icon: <div>.js</div> },
-        { label: "TypeScript", icon: <div>.ts</div> },
-        { label: "JavaScript", icon: <div>.js</div> },
-      ],
     ],
   },
   {
     heading: "Frameworks & Libraries",
-    data: [
+    skills: [
       [
-        { label: "Python", icon: <div>.py</div> },
-        { label: "C++", icon: <div>.cpp</div> },
+        { label: "React", icon: <div>.tsx</div> },
+        { label: "GraphQL", icon: <div>.graphql</div> },
+        { label: ".NET", icon: <div>.aspx</div> },
+        { label: "Phoenix", icon: <div>.ex</div> },
+        { label: "Django", icon: <div>.py</div> },
       ],
       [
-        { label: "TypeScript", icon: <div>.ts</div> },
-        { label: "JavaScript", icon: <div>.js</div> },
+        { label: "Tailwind CSS", icon: <div>.css</div> },
+        { label: "OpenCV", icon: <div>.cpp</div> },
+        { label: "OpenGL", icon: <div>.cpp</div> },
       ],
     ],
   },
   {
     heading: "Project Management",
-    data: [
+    skills: [
       [
-        { label: "Python", icon: <div>.py</div> },
-        { label: "C++", icon: <div>.cpp</div> },
+        { label: "Git", icon: <div>.git</div> },
+        { label: "Visual Studio", icon: <div>.vs</div> },
+        { label: "Atlassian", icon: <div>.code</div> },
       ],
       [
-        { label: "TypeScript", icon: <div>.ts</div> },
-        { label: "JavaScript", icon: <div>.js</div> },
+        { label: "Waterfall", icon: <div>:D</div> },
+        { label: "Agile", icon: <div>:D</div> },
       ],
     ],
   },
   {
     heading: "Systems",
-    data: [
+    skills: [
       [
         { label: "Python", icon: <div>.py</div> },
         { label: "C++", icon: <div>.cpp</div> },
+        { label: "TypeScript", icon: <div>.ts</div> },
       ],
       [
         { label: "TypeScript", icon: <div>.ts</div> },
@@ -147,9 +141,6 @@ export const TEST_SKILLS: SectionProps[] = [
       [
         { label: "Python", icon: <div>.py</div> },
         { label: "C++", icon: <div>.cpp</div> },
-      ],
-      [
-        { label: "TypeScript", icon: <div>.ts</div> },
         { label: "JavaScript", icon: <div>.js</div> },
       ],
     ],
