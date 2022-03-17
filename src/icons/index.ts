@@ -1,1 +1,1 @@
-export { default as Python } from "./Python";
+export * as Logo from "./logos";

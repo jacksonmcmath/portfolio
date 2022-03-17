@@ -8,7 +8,7 @@ export interface SkillProps {
 const Skill = ({ label, icon }: SkillProps) => {
   return (
     <div className="bg-gray-200 h-20 w-24 rounded flex flex-col justify-center items-center">
-      <div className="flex justify-center mb-1">{icon}</div>
+      <div className="mb-1">{icon}</div>
       <p className="text-sm text-center">{label}</p>
     </div>
   );

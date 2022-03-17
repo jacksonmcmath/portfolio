@@ -1,23 +1,23 @@
 import type { SkillGroupProps } from "../components/SkillGroup";
-import * as Icon from "../icons";
+import { Logo } from "../icons";
 
 // const SKILLS: SkillGroupProps[] = [
 //   {
 //     heading: "Languages",
 //     skills: [
 //       [
-//         { label: "Python", icon: <Icon.Python /> },
-//         { label: "C++", icon: <Icon.CPlusPlus /> },
-//         { label: "MatLab", icon: <Icon.MatLab /> },
-//         { label: "Java", icon: <Icon.Java /> },
-//         { label: "Elixir", icon: <Icon.Elixir /> },
+//         { label: "Python", icon: <Logo.Python /> },
+//         { label: "C++", icon: <Logo.CPlusPlus /> },
+//         { label: "MatLab", icon: <Logo.MatLab /> },
+//         { label: "Java", icon: <Logo.Java /> },
+//         { label: "Elixir", icon: <Logo.Elixir /> },
 //       ],
 //       [
-//         { label: "TypeScript", icon: <Icon.TypeScript /> },
-//         { label: "JavaScript", icon: <Icon.JavaScript /> },
-//         { label: "HTML", icon: <Icon.HTML /> },
-//         { label: "CSS", icon: <Icon.CSS /> },
-//         { label: "SQL", icon: <Icon.PostgreSQL /> },
+//         { label: "TypeScript", icon: <Logo.TypeScript /> },
+//         { label: "JavaScript", icon: <Logo.JavaScript /> },
+//         { label: "HTML", icon: <Logo.HTML /> },
+//         { label: "CSS", icon: <Logo.CSS /> },
+//         { label: "SQL", icon: <Logo.PostgreSQL /> },
 //       ],
 //     ],
 //   },
@@ -25,16 +25,16 @@ import * as Icon from "../icons";
 //     heading: "Frameworks & Libraries",
 //     skills: [
 //       [
-//         { label: "React", icon: <Icon.React /> },
-//         { label: "GraphQL", icon: <Icon.GraphQL /> },
-//         { label: ".NET", icon: <Icon.Microsoft /> },
-//         { label: "Phoenix", icon: <Icon.Phoenix /> },
-//         { label: "Django", icon: <Icon.Django /> },
+//         { label: "React", icon: <Logo.React /> },
+//         { label: "GraphQL", icon: <Logo.GraphQL /> },
+//         { label: ".NET", icon: <Logo.Microsoft /> },
+//         { label: "Phoenix", icon: <Logo.Phoenix /> },
+//         { label: "Django", icon: <Logo.Django /> },
 //       ],
 //       [
-//         { label: "Tailwind CSS", icon: <Icon.TailwindCSS /> },
-//         { label: "OpenCV", icon: <Icon.OpenCV /> },
-//         { label: "OpenGL", icon: <Icon.OpenGL /> },
+//         { label: "Tailwind CSS", icon: <Logo.TailwindCSS /> },
+//         { label: "OpenCV", icon: <Logo.OpenCV /> },
+//         { label: "OpenGL", icon: <Logo.OpenGL /> },
 //       ],
 //     ],
 //   },
@@ -42,13 +42,13 @@ import * as Icon from "../icons";
 //     heading: "Project Management",
 //     skills: [
 //       [
-//         { label: "Git", icon: <Icon.Git /> },
-//         { label: "Visual Studio", icon: <Icon.VisualStudio /> },
-//         { label: "Atlassian", icon: <Icon.Atlassian /> },
+//         { label: "Git", icon: <Logo.Git /> },
+//         { label: "Visual Studio", icon: <Logo.VisualStudio /> },
+//         { label: "Atlassian", icon: <Logo.Atlassian /> },
 //       ],
 //       [
-//         { label: "Waterfall", icon: <Icon.Waterfall /> },
-//         { label: "Agile", icon: <Icon.Agile /> },
+//         { label: "Waterfall", icon: <Logo.Waterfall /> },
+//         { label: "Agile", icon: <Logo.Agile /> },
 //       ],
 //     ],
 //   },
@@ -56,18 +56,18 @@ import * as Icon from "../icons";
 //     heading: "Systems",
 //     skills: [
 //       [
-//         { label: "macOS", icon: <Icon.Apple /> },
-//         { label: "Windows", icon: <Icon.Windows /> },
-//         { label: "Linux", icon: <Icon.Linux /> },
+//         { label: "macOS", icon: <Logo.Apple /> },
+//         { label: "Windows", icon: <Logo.Windows /> },
+//         { label: "Linux", icon: <Logo.Linux /> },
 //       ],
 //       [
-//         { label: "AWS", icon: <Icon.AWS /> },
-//         { label: "Vercel", icon: <Icon.Vercel /> },
+//         { label: "AWS", icon: <Logo.AWS /> },
+//         { label: "Vercel", icon: <Logo.Vercel /> },
 //       ],
 //       [
-//         { label: "Raspberry Pi", icon: <Icon.RaspberryPi /> },
-//         { label: "Arduino", icon: <Icon.Arduino /> },
-//         { label: "Mbed", icon: <Icon.Arm /> },
+//         { label: "Raspberry Pi", icon: <Logo.RaspberryPi /> },
+//         { label: "Arduino", icon: <Logo.Arduino /> },
+//         { label: "Mbed", icon: <Logo.Arm /> },
 //       ],
 //     ],
 //   },
@@ -80,11 +80,11 @@ export const TEST_SKILLS: SkillGroupProps[] = [
     heading: "Languages",
     skills: [
       [
-        { label: "Python", icon: <Icon.Python /> },
-        { label: "C++", icon: <div>.cpp</div> },
-        { label: "MatLab", icon: <div>.m</div> },
-        { label: "Java", icon: <div>.java</div> },
-        { label: "Elixir", icon: <div>.ex</div> },
+        { label: "Python", icon: <Logo.Python /> },
+        { label: "C++", icon: <Logo.CPlusPlus /> },
+        { label: "MatLab", icon: <Logo.MathWorks /> },
+        { label: "Java", icon: <Logo.Java /> },
+        { label: "Elixir", icon: <Logo.Elixir /> },
       ],
       [
         { label: "TypeScript", icon: <div>.ts</div> },
